@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react';
+import ProSidebar from '../components/ProSidebar';
+
 
 function Settings() {
-  return <h1>Settings</h1>
+  return (
+    <div style={{ display: 'flex' }}>
+      <ProSidebar />
+    </div>
+  )
 }
 
 export default Settings;

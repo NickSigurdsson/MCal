@@ -1,7 +1,16 @@
-import React from "react";
+import React from 'react';
+import ProSidebar from '../components/ProSidebar';
+import Meals from '../components/Meals';
+
 
 function Stats() {
-  return <h1>Stats</h1>
+  
+  return (
+    <div style={{ display: 'flex' }}>
+      <ProSidebar />
+      <Meals />
+    </div>
+  )
 }
 
 export default Stats;

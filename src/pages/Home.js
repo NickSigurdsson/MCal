@@ -3,6 +3,7 @@ import ProSidebar from '../components/ProSidebar';
 import Topbar from '../components/Topbar';
 import QuickInfo from '../components/QuickInfo';
 import Barchart from '../components/Barchart';
+import Donutchart from '../components/Donutchart';
 
 
 function Home () {
@@ -10,10 +11,13 @@ function Home () {
         <>
             <div style={{ display: 'flex' }}>
                 <ProSidebar />
-                <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}> {/* Vertical container */}
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
                     <Topbar />
                     <QuickInfo />
-                    <Barchart />
+                    <div style={{ flex: 1, display: 'flex', flexDirection: 'row' }}>
+                        <Barchart />
+                        <Donutchart />
+                    </div>
                 </div>
             </div>
         </>

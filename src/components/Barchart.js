@@ -62,17 +62,17 @@ function BarChart() {
         g.append('g')
             .call(yAxis);
 
-    }, []); // Empty dependency array means this useEffect will run once, similar to componentDidMount
+    }, []);
 
     return (
         <div style={{
             marginBottom: '50px',
             marginLeft: '40px'
         }}>
-            <Typography variant="h6">
-                <Box sx={{ fontWeight: 'bold'}}>Weekly Calorie Intake</Box>
-            </Typography>
             <Box border={1} borderColor="grey.300" boxShadow={3} p={2} borderRadius={4} width={600}>
+                <Typography variant="h6">
+                    <Box sx={{ fontWeight: 'light'}}>Weekly Calorie Intake</Box>
+                </Typography>
                 <svg ref={svgRef} width="600" height="390"></svg>
             </Box>
         </div>
