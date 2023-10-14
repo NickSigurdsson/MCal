@@ -1,6 +1,6 @@
 import React from 'react';
 import ProSidebar from '../components/ProSidebar';
-import Profilebox from '../components/Profilebox';
+import Profilebox from '../components/Profile/Profilebox';
 
 
 function Profile () {

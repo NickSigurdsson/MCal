@@ -1,9 +1,9 @@
 import React from 'react';
 import ProSidebar from '../components/ProSidebar';
 import Topbar from '../components/Topbar';
-import QuickInfo from '../components/QuickInfo';
-import Barchart from '../components/Barchart';
-import Donutchart from '../components/Donutchart';
+import QuickInfo from '../components/Home/QuickInfo';
+import Barchart from '../components/Home/Barchart';
+import Donutchart from '../components/Home/Donutchart';
 
 
 function Home () {
